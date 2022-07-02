@@ -10,3 +10,5 @@
 3. 상호작용하는 객체 사이에는 가능하면 느슨한 결합을 사용해야 한다.
 4. 클래스는 확장에는 열려 있어야 하지만 변경에는 닫혀 있어야 한다. (OCP : Open-Closed Principle)
 5. 추상화된 것에 의존하게 만들고 구상 클래스에 의존하지 않게 만든다. (DIP : Dependency Inversion Principle)
+6. 진짜 절친에게만 이야기해야 한다.
+- 어떤 객체든 그 객체와 상호작용을 하는 클래스의 개수와 상호작용 방식에 주의를 기울여야 한다. (PLK : Principle of least knwoledge)
