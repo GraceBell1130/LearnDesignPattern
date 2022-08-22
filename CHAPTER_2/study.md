@@ -13,6 +13,10 @@
 - Observer에서 데이터를 가져가는 방식을 pull 주체에서 알려주는 방식을 push라고하며 pull방식이 좀 더 옳은 방식으로 간주함
 
 출판-구독(Publish-Subscribe)패턴과 비슷하지만 다름 Publish-Subcribe는 서로 다른 유형의 메시지에 관심을 가질 수 있고, 출판사와 구독자를 더 세세하게 분리할 수 있는 복잡한 패턴임
+- Publish는 Subscribe에게 직접적으로 event를 발생하지 않고 channel에 event를 전달한 후, Channel을 통하여 Subscribe에게 event가 전달 됨  
+- Observer는 Subject가 직접적으로 event를 발생
+- Publish는 Subscribe의 존재를 알 필요가 없기에 Observer보다 결합도가 낮음
+- Observer는 Subject의 존재를 알고 있음
 
 느슨한 결합(Loose Coupling) : 객체들이 상호작용할 수는 있지만, 서로를 잘 모르는 관계를 의미
 - 유연성이 아주 좋음
