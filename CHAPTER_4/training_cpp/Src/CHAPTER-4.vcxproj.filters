@@ -28,6 +28,39 @@
     <Filter Include="헤더 파일\FactoryMethod\Store">
       <UniqueIdentifier>{b11e0da5-a48c-44dc-a8ed-dfa27a2d98f3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\AbstractFactory">
+      <UniqueIdentifier>{743876e1-d8d4-477e-b610-3171f0a08919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\AbstractFactory\ingredient">
+      <UniqueIdentifier>{6f6c2933-4e4c-4e07-9a21-1d07c4748722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\AbstractFactory\Pizza">
+      <UniqueIdentifier>{b54e043a-6ffd-40f5-9bb5-119274e77933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\AbstractFactory\Factory">
+      <UniqueIdentifier>{e2a02f10-e753-4736-961d-6642ac81b5b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\AbstractFactory\ingredient\Dough">
+      <UniqueIdentifier>{6226b4dd-a6f3-4a43-a9d0-ccffd556087b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\AbstractFactory\ingredient\Cheese">
+      <UniqueIdentifier>{f8bc5594-027d-4e2a-8658-93b487e8bc56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\AbstractFactory\ingredient\Clams">
+      <UniqueIdentifier>{fd4b64fa-602f-479e-a66a-905d89a19f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\AbstractFactory\ingredient\Sauce">
+      <UniqueIdentifier>{adadf51d-00e1-44c0-b210-cdcbca5b2c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\AbstractFactory\ingredient\Pepperoni">
+      <UniqueIdentifier>{3fb8e9f6-ca4c-477c-a0b9-8c5833e53e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\AbstractFactory\ingredient\Veggies">
+      <UniqueIdentifier>{6864e7be-bb3e-47da-a52b-ddf743fa969d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\AbstractFactory\Store">
+      <UniqueIdentifier>{32385c63-9481-41d9-a185-94a939570fa3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -76,6 +109,102 @@
     </ClInclude>
     <ClInclude Include="FactoryMethod\pizza.hpp">
       <Filter>헤더 파일\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\pizza.hpp">
+      <Filter>헤더 파일\AbstractFactory\Pizza</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\cheese_pizza.hpp">
+      <Filter>헤더 파일\AbstractFactory\Pizza</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\chicago_pizzaIngredient_factory.hpp">
+      <Filter>헤더 파일\AbstractFactory\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\dough_interface.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Dough</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\cheese_interface.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Cheese</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\clams_interface.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Clams</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\sauce_interface.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Sauce</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\veggies_interface.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Veggies</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\pepperoni_interface.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Pepperoni</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\black_olives.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Veggies</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\mozzarella_cheese.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Cheese</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\plum_tomato_sauce.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Sauce</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\sliced_pepperoni.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Pepperoni</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\thick_crust_dough.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Dough</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\frozen_clams.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Clams</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\spinach.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Veggies</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\eggplant.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Veggies</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\pizza_ingredient_factory_interface.hpp">
+      <Filter>헤더 파일\AbstractFactory\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\ny_pizzaIngredient_factory.hpp">
+      <Filter>헤더 파일\AbstractFactory\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\marinara_sauce.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Sauce</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\reggiano_cheese.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Cheese</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\fresh_clams.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Clams</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\garlic.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Veggies</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\onion.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Veggies</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\mushroom.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Veggies</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\red_pepper.hpp">
+      <Filter>헤더 파일\AbstractFactory\ingredient\Veggies</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\chicago_pizza_store.hpp">
+      <Filter>헤더 파일\AbstractFactory\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\pizza_store.hpp">
+      <Filter>헤더 파일\AbstractFactory\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\veggie_pizza.hpp">
+      <Filter>헤더 파일\AbstractFactory\Pizza</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\clam_pizza.hpp">
+      <Filter>헤더 파일\AbstractFactory\Pizza</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\pepperoni_pizza.hpp">
+      <Filter>헤더 파일\AbstractFactory\Pizza</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\ny_pizza_store.hpp">
+      <Filter>헤더 파일\AbstractFactory\Store</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
