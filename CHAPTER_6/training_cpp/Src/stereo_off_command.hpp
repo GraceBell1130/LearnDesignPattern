@@ -9,11 +9,15 @@ public:
 		stereo_ = stereo;
 	}
 
-	void Execute() {
+	void Execute() override {
 		stereo_->Off();
 	}
 
-	std::tstring Name() {
+	void Undo() override {
+		stereo_->On();
+	}
+
+	std::tstring Name() override {
 		return TEXT("StereoOffCommand");
 	}
 private:

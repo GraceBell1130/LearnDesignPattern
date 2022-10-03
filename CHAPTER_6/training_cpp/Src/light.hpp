@@ -6,10 +6,10 @@ public:
 	Light(std::tstring_view location) {
 		location_ = location;
 	}
-	void on() {
+	void On() {
 		std::tcout << location_ << TEXT(" 조명이 켜졌습니다.") << std::endl;
 	}
-	void off() {
+	void Off() {
 		std::tcout << location_ << TEXT(" 조명이 꺼졌습니다.") << std::endl;
 	}
 

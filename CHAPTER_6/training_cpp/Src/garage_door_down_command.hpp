@@ -9,11 +9,15 @@ public:
 		garage_door_ = garage_door;
 	}
 
-	void Execute() {
+	void Execute() override {
 		garage_door_->Up();
 	}
 
-	std::tstring Name() {
+	void Undo() override {
+		garage_door_->Down();
+	}
+
+	std::tstring Name() override {
 		return TEXT("GarageDoorUpCommand");
 	}
 private:

@@ -1,6 +1,13 @@
 #pragma once
 #include "stdafx.h"
 
+enum class POWER {
+	kOff,
+	kLow,
+	kMedium,
+	kHigh
+};
+
 class CeilingFan {
 public:
 	CeilingFan(std::tstring location) {
@@ -27,17 +34,11 @@ public:
 		std::tcout << location_ << TEXT(" 선풍기 속도가  꺼졌습니다.") << std::endl;
 	}
 
-	int GetSpeed() {
-		return static_cast<int>(level_);
+	POWER GetSpeed() {
+		return level_;
 	}
 
 private:
 	std::tstring location_;
-	enum class POWER {
-		kOff,
-		kLow,
-		kMedium,
-		kHigh
-	};
 	POWER level_;
 };

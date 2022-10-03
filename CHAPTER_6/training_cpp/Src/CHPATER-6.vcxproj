@@ -136,6 +136,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ceiling_fan.hpp" />
+    <ClInclude Include="ceiling_fan_high_command.hpp" />
+    <ClInclude Include="ceiling_fan_low_command.hpp" />
+    <ClInclude Include="ceiling_fan_medium_command.hpp" />
     <ClInclude Include="ceiling_fan_off_command.hpp" />
     <ClInclude Include="ceiling_fan_on_command.hpp" />
     <ClInclude Include="command.h" />
@@ -145,6 +148,7 @@
     <ClInclude Include="light.hpp" />
     <ClInclude Include="light_off_command.hpp" />
     <ClInclude Include="light_on_command.hpp" />
+    <ClInclude Include="macro_command.hpp" />
     <ClInclude Include="no_command.hpp" />
     <ClInclude Include="remote_control.hpp" />
     <ClInclude Include="stdafx.h" />

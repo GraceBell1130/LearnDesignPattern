@@ -4,10 +4,12 @@
 class NoCommand : public Command {
 public:
 	void Execute() override {
-
 	}
 
-	std::tstring Name() {
+	void Undo() override {
+	}
+
+	std::tstring Name() override {
 		return TEXT("NoCommand");
 	}
 };

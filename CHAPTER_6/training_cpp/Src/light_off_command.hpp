@@ -8,11 +8,16 @@ public:
 	LigthOffCommand(std::shared_ptr<Light> light) {
 		light_ = light;
 	}
-	void Execute() {
-		light_->off();
+
+	void Execute() override {
+		light_->Off();
 	}
 	
-	std::tstring Name() {
+	void Undo() override {
+		light_->On();
+	}
+
+	std::tstring Name() override {
 		return TEXT("LigthOffCommand");
 	}
 

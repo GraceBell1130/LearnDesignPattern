@@ -16,9 +16,6 @@
     <Filter Include="헤더 파일\Command">
       <UniqueIdentifier>{1b431384-7ec3-4646-851d-9a3a12126b9d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="헤더 파일\Receiver">
-      <UniqueIdentifier>{fca228d8-72d1-41e7-932f-8d59fe94f1dc}</UniqueIdentifier>
-    </Filter>
     <Filter Include="헤더 파일\Invoker">
       <UniqueIdentifier>{29e914b4-5089-47f6-a53f-f42eecde2894}</UniqueIdentifier>
     </Filter>
@@ -91,6 +88,18 @@
     </ClInclude>
     <ClInclude Include="stereo_off_command.hpp">
       <Filter>헤더 파일\Command\Stereo</Filter>
+    </ClInclude>
+    <ClInclude Include="ceiling_fan_high_command.hpp">
+      <Filter>헤더 파일\Command\CeilingFan</Filter>
+    </ClInclude>
+    <ClInclude Include="ceiling_fan_medium_command.hpp">
+      <Filter>헤더 파일\Command\CeilingFan</Filter>
+    </ClInclude>
+    <ClInclude Include="ceiling_fan_low_command.hpp">
+      <Filter>헤더 파일\Command\CeilingFan</Filter>
+    </ClInclude>
+    <ClInclude Include="macro_command.hpp">
+      <Filter>헤더 파일\Command</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
